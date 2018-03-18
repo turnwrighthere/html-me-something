@@ -1,13 +1,19 @@
-<html>
+<!DOCTYPE html>
+<html lang="en-US">
 <head>
     <title>HTML Me Something</title>
-    
+    <link rel="stylesheet" type="text/css" href="/Users/Joseph/lc101/html-me-something/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Overpass:100,100i,300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
 </head>
 <body>
 
-    <header><img id="logo" src="/Users/Joseph/lc101/html-me-something/images"><span id="welcome">hello &amp; welcome</span></header>    
+    <header>
+        <img id="logo" src="/Users/Joseph/lc101/html-me-something/images/logo.png">
+        <span id="welcome">hello &amp; welcome</span>
+    </header>   
+
     <main>
-        <div class="hero-image"></div>
+        <div class="hero"></div>
         <div class="main-story">
             <h1>How I learned to love web development</h1>
             <p>I have always loved to make things, and going through life I assmebled more tools to make a greater variety of things. I saw myself firmly planted in the world of art for a while, eventually settling on the challenge of graphic design as my career path. Learning all of the tools of the trade <em>*cough* The Adobe suite *cough*</em> provided a nice balance between learning new tricks and improving at the ones I knew already. Eventually, the tools just slipped into the bck of my mind and I was able to make exactly what I wanted without fear of not knowing how to do something.</p>
@@ -15,13 +21,15 @@
             <h2>Enter web design</h2>
             <p>Web design provided the perfect avenue for me to apply what I know all while learning more about how the thing I was mocking up was going to be made. Eventually my desire to have control over the entire process led me to jumping in to HTML and CSS, and has consistently provided new thing to learn. I'm still making things, it's just that you can now interact with them on the web.</p>
         </div>
-        <article>
-            <h1>What's next?</h1>
-            <p>With HTML and CSS providing the blocks of what I am building, I increasingly want to control how the things can be interacted with. I am hoping to learn more about Javascript and other development practices to get this down and improve my craft.</p>
-        </article>
+        <div class="sidebar">
+            <article>
+                <h1>What's next?</h1>
+                <p>With HTML and CSS providing the blocks of what I am building, I increasingly want to control how the things can be interacted with. I am hoping to learn more about Javascript and other development practices to get this down and improve my craft.</p>
+                <a class="button" href="#">Read More</a>
+            </article>
+        </div>
     </main>
-    
 
-    <footer>All website content copyright &copy; Joe Wright 2018</footer>
+    <footer>All website content copyright &copy; <a href="http://www.turnwrighthere.com">Joe Wright</a> 2018</footer>
 </body>
 </html>
